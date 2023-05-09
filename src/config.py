@@ -5,7 +5,7 @@ class Config:
 
 
 
-class DevelopmentConfig():
+class DevelopmentConfig(Config):
     DEBUG = True
     MYSQL_HOST = 'localhost'
     MYSQL_USER = 'root'
